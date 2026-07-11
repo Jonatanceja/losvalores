@@ -1,10 +1,9 @@
 <?php
 
 return [
-    // ImageMagick driver, full path so the web server (Herd/PHP-FPM) resolves
-    // the binary regardless of its PATH.
-    'driver' => 'im',
-    'bin' => '/opt/homebrew/bin/magick',
+    // GD driver: bundled with PHP and encodes WebP without an external binary,
+    // so it works the same locally and on the server (no ImageMagick path).
+    'driver' => 'gd',
     'quality' => 80,
 
     'srcsets' => [

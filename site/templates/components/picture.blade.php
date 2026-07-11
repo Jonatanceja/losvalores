@@ -1,6 +1,7 @@
 {{--
-    Responsive <picture> that serves WebP (via Kirby thumbs srcsets), with the
-    original as the fallback. Data provided by App\View\Components\Picture.
+    Responsive image. WebP is served through Kirby's thumbs `webp` srcset directly
+    on the <img> (no <picture>/<source> content negotiation), with the original as
+    the `src` fallback. Data provided by App\View\Components\Picture.
     $file  — Kirby File. $sizes — the `sizes` attribute (default 100vw).
     Extra attributes (class, alt, data-parallax, loading, …) pass through to <img>.
     SVGs are emitted as-is (no raster conversion).
@@ -8,13 +9,10 @@
 @if ($file->extension() === 'svg')
     <img src="{{ $file->url() }}" {{ $attributes->merge(['alt' => $file->alt()->value()]) }}>
 @else
-    {{-- display:contents so the wrapper doesn't affect layout; the <img> lays
-         out exactly as it would on its own (positioning, aspect, object-fit). --}}
-    <picture class="contents">
-        <source type="image/webp" srcset="{{ $file->srcset('webp') }}" sizes="{{ $sizes }}">
-        <img
-            src="{{ $file->url() }}"
-            {{ $attributes->merge(['alt' => $file->alt()->value(), 'loading' => 'lazy']) }}
-        >
-    </picture>
+    <img
+        src="{{ $file->url() }}"
+        srcset="{{ $file->srcset('webp') }}"
+        sizes="{{ $sizes }}"
+        {{ $attributes->merge(['alt' => $file->alt()->value(), 'loading' => 'lazy']) }}
+    >
 @endif
