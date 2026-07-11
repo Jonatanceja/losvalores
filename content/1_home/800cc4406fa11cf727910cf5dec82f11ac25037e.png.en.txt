@@ -1,0 +1,13 @@
+Alt: Los Valores Distillery
+
+----
+
+Caption: <p>Los Valores Distillery at Ixtlahuacan de los Memebrillos</p>
+
+----
+
+Uuid: o2mhudakqhepgqj1
+
+----
+
+Template: image

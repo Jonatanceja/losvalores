@@ -1,0 +1,49 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+/kirby
+/storage/*.key
+/vendor
+/node_modules
+/.idea
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Vite Build files
+# ---------------
+
+/public/build
+/public/hot
+
+# Temporary files
+# ---------------
+
+/public/media/*
+!/public/media/.gitkeep
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# License
+# ---------------
+/site/config/.license
+
+# Configuration files
+# ---------------
+.env
+.env.backup
+.env.production
+.npmrc
+composer.phar
+composer.lock
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Plugins
+# ---------------
+/site/plugins/kirby-*

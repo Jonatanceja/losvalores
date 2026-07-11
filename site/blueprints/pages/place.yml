@@ -1,0 +1,94 @@
+title: Place
+
+tabs:
+
+  # Hero
+  hero:
+    label:
+      en: Hero
+      es: Portada
+    icon: image
+    fields:
+      heroImage:
+        label:
+          en: Background image
+          es: Imagen de fondo
+        type: files
+        max: 1
+        multiple: false
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+      heroTitle:
+        label:
+          en: Title
+          es: Título
+        type: text
+      heroText:
+        label:
+          en: Text
+          es: Texto
+        type: textarea
+
+  # Info
+  info:
+    label:
+      en: Info
+      es: Información
+    icon: list-bullet
+    fields:
+      infoImage:
+        label:
+          en: Images
+          es: Imágenes
+        type: files
+        multiple: true
+        layout: cards
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+        help:
+          en: One image shows static; two or more become a slider.
+          es: Una imagen se muestra estática; dos o más forman un slider.
+      infoItems:
+        label:
+          en: Bullet list
+          es: Lista de viñetas
+        type: textarea
+        help:
+          en: 'Start each item with "- " to make a bullet.'
+          es: 'Empieza cada punto con "- " para crear una viñeta.'
+
+  # Feature
+  feature:
+    label:
+      en: Feature
+      es: Destacado
+    icon: image
+    fields:
+      featureImage:
+        label:
+          en: Background image
+          es: Imagen de fondo
+        type: files
+        max: 1
+        multiple: false
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+      featureTitle:
+        label:
+          en: Title
+          es: Título
+        type: text
+      featureText:
+        label:
+          en: Text
+          es: Texto
+        type: textarea

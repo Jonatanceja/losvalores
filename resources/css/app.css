@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@plugin "@tailwindcss/typography";
+@source "../../site/templates";
+@source "../js";
+
+@theme {
+    /* Extends Tailwind's max-width / container scale so `max-w-8xl` works. */
+    --container-8xl: 90rem;
+
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    /* @font-face is declared inline in layout/index.blade.php (see the fonts
+       url() gotcha in CLAUDE.md). This only exposes the `font-elzevir` utility. */
+    --font-elzevir: '1669 Elzevir W01', ui-serif, Georgia, serif;
+    --font-abhaya: 'Abhaya Libre', ui-serif, Georgia, serif;
+    --font-toyprint: '1920 My Toy Print', ui-serif, Georgia, serif;
+}

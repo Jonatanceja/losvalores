@@ -1,0 +1,13 @@
+Alt: Chapala Lake
+
+----
+
+Caption: <p>Chapala Lake Illustration</p>
+
+----
+
+Uuid: wkmfnfuzfr5ymieb
+
+----
+
+Template: image

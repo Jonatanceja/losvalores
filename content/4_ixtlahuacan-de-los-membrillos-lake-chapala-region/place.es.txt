@@ -1,0 +1,31 @@
+Title: Ixtlahuacán de los Membrillos y Lago de Chapala
+
+----
+
+Herotitle: Región de Ixtlahuacán de los Membrillos y Lago de Chapala
+
+----
+
+Herotext: Ubicado a solo 30 km al sur de Guadalajara, Ixtlahuacán de los Membrillos es un pueblo encantador conocido por su clima templado, su fértil suelo volcánico y sus tradiciones agrícolas centenarias.  Su nombre proviene de las palabras nahuas Ixtla (“valle” o “llano”) y membrillo, que significa “Valle de los Membrillos”. La zona fue históricamente conocida por sus huertos frutales, especialmente de membrillo y guayaba.
+
+----
+
+Infoitems:
+
+- La región se encuentra a unos 1,550 metros (5,085 ft) sobre el nivel del mar, altitud perfecta para el cultivo del agave azul, con días soleados, noches frescas y lluvias equilibradas.
+- Los suelos volcánicos cercanos a Chapala y la Sierra del Tigre aportan minerales ricos que contribuyen al sabor y la mineralidad únicos de los agaves y el agua de esta región.
+- Es uno de los pocos pueblos de Jalisco con una destilería en su ladera, lo que le da a Los Valores tanto altitud como la humedad influida por el lago, un microclima poco común para la elaboración de tequila.
+- El pueblo celebra las Fiestas de San Francisco de Asís cada octubre, mezclando danzas tradicionales, procesiones y música que reflejan el auténtico espíritu de los pueblos de Jalisco.
+- Los mercados locales aún ofrecen licores de membrillo tradicionales, conservas y dulces, un guiño a las raíces agrícolas de la región.
+
+----
+
+Featuretitle: Lago de Chapala
+
+----
+
+Featuretext: El Lago de Chapala es el lago de agua dulce más grande de México, con más de 80 km (50 millas) de largo y unos 18 km (11 millas) de ancho. Forma parte de la cuenca hidrológica Lerma-Santiago, el mismo sistema de agua que nutre gran parte de los campos de agave del occidente de Jalisco.
+
+----
+
+Uuid: placepage0000001

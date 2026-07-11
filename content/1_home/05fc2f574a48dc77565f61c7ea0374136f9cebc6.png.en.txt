@@ -1,0 +1,5 @@
+Uuid: w077by62sw2gv6tr
+
+----
+
+Template: image

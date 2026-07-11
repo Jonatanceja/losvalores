@@ -1,0 +1,297 @@
+title: Home
+
+tabs:
+
+  # Hero
+  hero:
+    label:
+      en: Hero
+      es: Portada
+    icon: image
+    columns:
+
+      # Foreground — follows the design top-to-bottom:
+      # logo, bottle name, bottle, hero text, signature
+      main:
+        width: 2/3
+        sections:
+
+          brand:
+            type: fields
+            fields:
+
+              logo:
+                label:
+                  en: Logo
+                  es: Logo
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+                width: 1/3
+
+              bottle:
+                label:
+                  en: Bottle
+                  es: Botella
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+                width: 1/3
+              
+              signature:
+                label:
+                  en: Signature
+                  es: Firma
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+                width: 1/3
+
+              bottleName:
+                label:
+                  en: Bottle name
+                  es: Nombre de la botella
+                type: text
+
+              heroText:
+                label:
+                  en: Hero text
+                  es: Texto de hero
+                type: textarea
+                size: medium
+
+      # Backdrop assets — background and illustration
+      sidebar:
+        width: 1/3
+        sticky: true
+        sections:
+
+          backdrop:
+            type: fields
+            fields:
+
+              background:
+                label:
+                  en: Background
+                  es: Fondo
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+
+              illustration:
+                label:
+                  en: Illustration
+                  es: Ilustración
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+
+          files:
+            label:
+              en: All files
+              es: Archivos
+            type: files
+
+  # Intro
+  intro:
+    label:
+      en: Intro
+      es: Intro
+    icon: text
+    fields:
+      introTitle:
+        label:
+          en: Title
+          es: Título
+        type: text
+      introText:
+        label:
+          en: Text
+          es: Texto
+        type: textarea
+        size: large
+
+  # Gallery
+  gallery:
+    label:
+      en: Gallery
+      es: Galería
+    icon: image
+    fields:
+      gallery:
+        label:
+          en: Images
+          es: Imágenes
+        type: files
+        multiple: true
+        layout: cards
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+
+  # Meet the place
+  place:
+    label:
+      en: Meet the place
+      es: Conoce el lugar
+    icon: home
+    columns:
+
+      one:
+        width: 1/2
+        sections:
+          columnOne:
+            type: fields
+            fields:
+              placeTextOne:
+                label:
+                  en: Text
+                  es: Texto
+                type: textarea
+              placeTitleOne:
+                label:
+                  en: Title
+                  es: Título
+                type: text
+              placeImageOne:
+                label:
+                  en: Image
+                  es: Imagen
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+
+      two:
+        width: 1/2
+        sections:
+          columnTwo:
+            type: fields
+            fields:
+              placeTextTwo:
+                label:
+                  en: Text
+                  es: Texto
+                type: textarea
+              placeTitleTwo:
+                label:
+                  en: Title
+                  es: Título
+                type: text
+              placeImageTwo:
+                label:
+                  en: Image
+                  es: Imagen
+                type: files
+                max: 1
+                multiple: false
+                layout: cards
+                query: page.images
+                uploads: image
+                translate: false
+                image:
+                  back: white
+
+  # The lake
+  lake:
+    label:
+      en: The lake
+      es: El lago
+    icon: image
+    fields:
+      lakeTitle:
+        label:
+          en: Title
+          es: Título
+        type: text
+      lakeSubtitle:
+        label:
+          en: Subtitle
+          es: Subtítulo
+        type: text
+      lakeText:
+        label:
+          en: Text
+          es: Texto
+        type: textarea
+      lakeIllustration:
+        label:
+          en: Illustration
+          es: Ilustración
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+
+  # Distillery
+  distillery:
+    label:
+      en: Distillery
+      es: Destilería
+    icon: image
+    fields:
+      distilleryImage:
+        label:
+          en: Image
+          es: Imagen
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+      distilleryTitle:
+        label:
+          en: Title
+          es: Título
+        type: text
+      distilleryText:
+        label:
+          en: Text
+          es: Texto
+        type: textarea

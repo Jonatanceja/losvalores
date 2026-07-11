@@ -1,0 +1,13 @@
+Alt: Tequila Cristalino Los Valores
+
+----
+
+Caption: <p>Tequila Cristalino los Valores bottle</p>
+
+----
+
+Uuid: tzxnryrnhnernv4y
+
+----
+
+Template: image

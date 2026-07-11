@@ -1,0 +1,13 @@
+Title: Reposado
+
+----
+
+Subtitle: Expresivo y Armonioso
+
+----
+
+Description: Reposado durante 5 meses en barricas ex-Bourbon y de whiskey Tennessee, nuestro Reposado revela capas de agave cocido, vainilla, caramelo y pimienta, con un final suave y elegante que resalta el equilibrio perfecto entre la madera y el agave.
+
+----
+
+Uuid: jsgkcwoh6gsf8h5h

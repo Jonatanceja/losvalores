@@ -1,0 +1,64 @@
+Title: Inicio
+
+----
+
+Bottlename: Cristalino
+
+----
+
+Herotext:
+
+Respetar a nuestros ancestros, familia, tierra y Tradición.
+La libertad es otro valor que honramos, respirar el presente.
+
+----
+
+Introtitle: Arraigados en la Familia y la Tradición
+
+----
+
+Introtext: Fundada en 2019 por nuestro Maestro Destilador Ricardo Antonio Aguilar y su familia, Tequila Los Valores nació de una profunda pasión por el oficio, la herencia y la autenticidad. Cada botella refleja los valores que nos definen: familia, integridad y respeto por la tierra.
+
+----
+
+Placetextone: Nuestra destilería se encuentra en el pueblo de Ixtlahuacán de los Membrillos, Jalisco, junto al hermoso Lago de Chapala, a solo una hora al sur de Guadalajara. Ubicada en la cima de una colina, es la única destilería de este pequeño y pintoresco pueblo, con vistas impresionantes y un microclima único que moldea el carácter de nuestros Tequilas.
+
+----
+
+Placetitleone: Desde el Corazón de Jalisco
+
+----
+
+Placetexttwo: Nos enorgullece ser una empresa familiar comprometida con honrar las tradiciones tequileras de México. Nuestro portafolio incluye actualmente cuatro expresiones únicas, con nuevos lanzamientos siempre en desarrollo, cada uno elaborado para mostrar la versatilidad y el alma de nuestros agaves.
+
+----
+
+Placetitletwo: Una Marca Mexicana Familiar
+
+----
+
+Laketitle: El Espíritu del Lago
+
+----
+
+Lakesubtitle: Pruébalo y siente la diferencia.
+
+----
+
+Laketext: Nos enorgullece ser una empresa familiar comprometida con honrar las tradiciones tequileras de México. Nuestro portafolio incluye actualmente cuatro expresiones únicas, con nuevos lanzamientos siempre en desarrollo, cada uno elaborado para mostrar la versatilidad y el alma de nuestros agaves.
+
+----
+
+Distillerytitle: Elaborado en Compañía Tequilera Los Valores
+
+----
+
+Distillerytext: Tequila Los Valores comparte con orgullo su nombre con nuestra destilería, Compañía Tequilera Los Valores S.A. de C.V. Conforme a nuestra NOM 1608, somos uno de los pocos productores mexicanos que supervisa cada etapa de la producción —desde la cocción y la destilación hasta la maduración, el embotellado y el envío— todo en un mismo lugar. Este enfoque artesanal garantiza consistencia, calidad y autenticidad en cada gota.
+
+----
+
+Text:
+
+----
+
+Uuid: sm3xEhovFJsimsbQ

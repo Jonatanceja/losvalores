@@ -1,0 +1,193 @@
+title: Tequila
+
+tabs:
+
+  # Content
+  content:
+    label:
+      en: Content
+      es: Contenido
+    icon: text
+    columns:
+
+      main:
+        width: 2/3
+        fields:
+          layoutHeadline:
+            type: headline
+            label:
+              en: Layout
+              es: Disposición
+          variant:
+            label:
+              en: Layout variant
+              es: Variante de disposición
+            type: select
+            default: standard
+            translate: false
+            options:
+              standard:
+                en: Standard (text beside the bottle)
+                es: Estándar (texto junto a la botella)
+              stacked:
+                en: Stacked (text under the bottle, photo right, overlaps up)
+                es: Apilado (texto bajo la botella, foto a la derecha, traslapa arriba)
+          flip:
+            label:
+              en: Invert columns (bottle on the right)
+              es: Invertir columnas (botella a la derecha)
+            type: toggle
+            default: false
+            translate: false
+          presentationFormat:
+            label:
+              en: Presentation image format
+              es: Formato de imagen de presentación
+            type: select
+            default: landscape
+            translate: false
+            options:
+              landscape:
+                en: Landscape (4:3)
+                es: Horizontal (4:3)
+              square:
+                en: Square (1:1)
+                es: Cuadrado (1:1)
+          firstImageWidth:
+            label:
+              en: First gallery image width
+              es: Ancho de la primera imagen de galería
+            type: select
+            default: md
+            translate: false
+            options:
+              md:
+                en: Medium
+                es: Mediana
+              lg:
+                en: Large
+                es: Grande
+              xl:
+                en: Extra large
+                es: Extra grande
+              full:
+                en: Full column
+                es: Columna completa
+          markOffset:
+            label:
+              en: Signature & stamp height
+              es: Altura de firma y sello
+            type: select
+            default: default
+            translate: false
+            options:
+              higher:
+                en: Higher
+                es: Más arriba
+              default:
+                en: Default
+                es: Normal
+              lower:
+                en: Lower
+                es: Más abajo
+          markPlacement:
+            label:
+              en: Signature & stamp placement
+              es: Ubicación de firma y sello
+            type: select
+            default: bottle
+            translate: false
+            options:
+              bottle:
+                en: Beside the bottle
+                es: Junto a la botella
+              text:
+                en: Above the text
+                es: Sobre el texto
+          columnImage:
+            label:
+              en: Show first gallery image beside the text
+              es: Mostrar la primera imagen de galería junto al texto
+            type: toggle
+            default: true
+            translate: false
+          contentHeadline:
+            type: headline
+            label:
+              en: Content
+              es: Contenido
+          subtitle:
+            label:
+              en: Subtitle
+              es: Subtítulo
+            type: text
+          description:
+            label:
+              en: Description
+              es: Descripción
+            type: textarea
+            size: small
+          gallery:
+            label:
+              en: Gallery
+              es: Galería
+            type: files
+            multiple: true
+            layout: cards
+            query: page.images
+            uploads: image
+            translate: false
+            image:
+              back: white
+
+      sidebar:
+        width: 1/3
+        fields:
+          bottleImage:
+            label:
+              en: Bottle image
+              es: Imagen de la botella
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+            translate: false
+            image:
+              back: white
+          presentationImage:
+            label:
+              en: Presentation image
+              es: Imagen de presentación
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+            translate: false
+            image:
+              back: white
+          signature:
+            label:
+              en: Signature
+              es: Firma
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+            translate: false
+            image:
+              back: white
+          stamp:
+            label:
+              en: Stamp
+              es: Sello
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+            translate: false
+            image:
+              back: white

@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "eqeqeq": "warn",
+        "no-console": [
+            "error", {
+                "allow": ["log", "warn", "error"]
+            }
+        ],
+        "vue/max-attributes-per-line": ["warn", {
+            "singleline": 1,
+            "multiline": {
+              "max": 1,
+              "allowFirstLine": true
+            }
+        }]
+    },
+    "globals": {
+        "_": false,
+        "axios": false,
+        "Vue": false,
+        "Alpine": false
+    }
+}

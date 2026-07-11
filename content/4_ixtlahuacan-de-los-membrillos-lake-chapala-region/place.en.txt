@@ -1,0 +1,43 @@
+Title: Ixtlahuacán de los Membrillos & Lake Chapala
+
+----
+
+Heroimage: - file://9mistxcbddlbbkbw
+
+----
+
+Herotitle: Ixtlahuacán de los Membrillos & Lake Chapala Region
+
+----
+
+Herotext: Located just 30 km south of Guadalajara, Ixtlahuacán de los Membrillos is a charming town known for its mild climate, fertile volcanic soil, and centuries-old agricultural traditions.  Its name comes from the Nahuatl words Ixtla (“valley” or “plain”) and membrillo (“quince”), meaning “Valley of the Quince Trees.” The area was historically known for its fruit orchards, especially quince and guava.
+
+----
+
+Infoimage: - file://rjst1c06qykt65f8
+
+----
+
+Infoitems:
+
+- The region sits at about 1,550 meters (5,085 ft) above sea level — perfect altitude for blue agave cultivation, with sunny days, cool nights, and balanced rainfall. 
+- The volcanic soils near Chapala and the Sierra del Tigre provide rich minerals that contribute to the unique flavor and minerality found in agaves and water from this region. 
+- It’s one of the few towns in Jalisco with a distillery right on its hillside, giving Los Valores both altitude and lake-influenced humidity — a rare microclimate for tequila making. 
+- The town celebrates the Fiestas de San Francisco de Asís each October, mixing traditional dances, processions, and music that reflect authentic small-town Jalisco spirit. 
+- The local markets still feature traditional quince liqueurs, preserves, and sweets, a nod to the region’s agricultural roots.
+
+----
+
+Featureimage: - file://eylhnogfin02scws
+
+----
+
+Featuretitle: Lake Chapala (Lago de Chapala)
+
+----
+
+Featuretext: Lake Chapala is Mexico’s largest freshwater lake, stretching over 80 km (50 miles) long and about 18 km (11 miles) wide. It forms part of the Lerma-Santiago hydrological basin - the same water system that supports much of western Jalisco’s agave fields.
+
+----
+
+Uuid: placepage0000001

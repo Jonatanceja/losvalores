@@ -1,0 +1,124 @@
+title: Our Process
+
+tabs:
+
+  # Hero
+  hero:
+    label:
+      en: Hero
+      es: Portada
+    icon: image
+    fields:
+      heroImage:
+        label:
+          en: Background image
+          es: Imagen de fondo
+        type: files
+        max: 1
+        multiple: false
+        layout: cards
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
+      heroTitle:
+        label:
+          en: Title
+          es: Título
+        type: text
+      heroSubtitle:
+        label:
+          en: Subtitle
+          es: Subtítulo
+        type: text
+      heroText:
+        label:
+          en: Text
+          es: Texto
+        type: textarea
+      darkNav:
+        label:
+          en: White navigation (dark hero)
+          es: Navegación blanca (hero oscuro)
+        type: toggle
+        default: true
+        translate: false
+
+  # Process — replicable steps
+  process:
+    label:
+      en: Process
+      es: Proceso
+    icon: sitemap
+    fields:
+      steps:
+        label:
+          en: Steps
+          es: Pasos
+        type: structure
+        duplicate: true
+        columns:
+          title:
+            width: 1/4
+          intro:
+            width: 3/4
+        fields:
+          image:
+            label:
+              en: Image
+              es: Imagen
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+          title:
+            label:
+              en: Title
+              es: Título
+            type: text
+          intro:
+            label:
+              en: Intro
+              es: Introducción
+            type: textarea
+            size: small
+          introWidth:
+            label:
+              en: Intro width
+              es: Ancho del texto
+            type: select
+            default: "3/5"
+            options:
+              "2/5": "2/5"
+              "3/5": "3/5"
+              "4/5": "4/5"
+          textLeft:
+            label:
+              en: Text (left column)
+              es: Texto (columna izquierda)
+            type: textarea
+          textRight:
+            label:
+              en: Text (right column)
+              es: Texto (columna derecha)
+            type: textarea
+          footer:
+            label:
+              en: Closing line
+              es: Línea de cierre
+            type: text
+
+  # Closing
+  closing:
+    label:
+      en: Closing
+      es: Cierre
+    icon: text
+    fields:
+      closingSubtitle:
+        label:
+          en: Subtitle
+          es: Subtítulo
+        type: text

@@ -1,0 +1,107 @@
+Title: Home
+
+----
+
+Logo: - file://ivuneipunddwhcgf
+
+----
+
+Bottle: - file://tzxnryrnhnernv4y
+
+----
+
+Signature: - file://wifkoxtav2f61ubw
+
+----
+
+Bottlename: Cristalino
+
+----
+
+Herotext:
+
+To respect our ancestors, family, land, and tradition.
+Liberty is another value we honor, breathing the present.
+
+----
+
+Background: - file://w077by62sw2gv6tr
+
+----
+
+Illustration: - file://kpkrlovdu4tisqyw
+
+----
+
+Introtitle: Rooted in Family and Tradition
+
+----
+
+Introtext: Founded in 2019 by our Master Distiller Ricardo Antonio Aguilar and his family, Tequila Los Valores was born from a deep passion for craftsmanship, heritage, and authenticity. Every bottle reflects the values that define us—family, integrity, and respect for the land.
+
+----
+
+Gallery:
+
+- file://o2mhudakqhepgqj1
+- file://5hbbzkupfniuer6g
+
+----
+
+Placetextone: Our distillery is located in the town of Ixtlahuacán de los Membrillos, Jalisco—nestled near the beautiful Lake Chapala, just an hour south of Guadalajara. Perched on a hilltop, it’s the only distillery in this small, picturesque town, offering breathtaking views and a unique microclimate that shapes the character of our Tequilas.
+
+----
+
+Placetitleone: From the Heart of Jalisco
+
+----
+
+Placeimageone: - file://4zoibcrbeeoz3d0g
+
+----
+
+Placetexttwo: We’re proud to be a family-owned and operated company committed to honoring Mexico’s tequila-making traditions. Our portfolio currently includes four unique expressions, with new releases always in development—each one crafted to showcase the versatility and soul of our agaves.
+
+----
+
+Placetitletwo: A Family-Owned Mexican Brand
+
+----
+
+Placeimagetwo: - file://cqastfpffhxpyl1m
+
+----
+
+Laketitle: The Lakeland Spirit
+
+----
+
+Lakesubtitle: Try it, and taste the difference.
+
+----
+
+Laketext: We’re proud to be a family-owned and operated company committed to honoring Mexico’s tequila-making traditions. Our portfolio currently includes four unique expressions, with new releases always in development—each one crafted to showcase the versatility and soul of our agaves.
+
+----
+
+Lakeillustration: - file://wkmfnfuzfr5ymieb
+
+----
+
+Distilleryimage: - file://mgigehoslkesg5l3
+
+----
+
+Distillerytitle: Crafted at Compañía Tequilera Los Valores
+
+----
+
+Distillerytext: Tequila Los Valores proudly shares its name with our distillery, Compañía Tequilera Los Valores S.A. de C.V. According to our NOM 1608, we’re among the few Mexican producers that oversee every step of production from cooking and distilling to aging, bottling, and shipping all in one place. This hands-on approach ensures consistency, quality, and authenticity in every drop.
+
+----
+
+Text: 
+
+----
+
+Uuid: sm3xEhovFJsimsbQ

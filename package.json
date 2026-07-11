@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "development": "npm run dev",
+        "build": "vite build",
+        "prod": "npm run build",
+        "production": "npm run build",
+        "app-dev": "cd site/plugins/app && npm run dev",
+        "app-serve": "cd site/plugins/app && npm run serve",
+        "app-setup": "cd site/plugins/app && npm run setup",
+        "app-update": "cd site/plugins/app && npm update",
+        "app": "cd site/plugins/app && npm run build"
+    },
+    "devDependencies": {
+        "@shufo/prettier-plugin-blade": "^1.10",
+        "laravel-vite-plugin": "^3.0",
+        "prettier": "^3.0",
+        "prettier-plugin-tailwindcss": "^0.6",
+        "vite": "^8.0"
+    },
+    "dependencies": {
+        "@tailwindcss/typography": "^0.5",
+        "@tailwindcss/vite": "^4.0",
+        "alpinejs": "^3.0",
+        "axios": "^1.10",
+        "gsap": "^3.15.0",
+        "lodash": "^4.0",
+        "tailwindcss": "^4.0"
+    }
+}

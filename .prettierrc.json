@@ -1,0 +1,33 @@
+{
+    "endWithNewLine": true,
+    "tabWidth": 2,
+    "plugins": ["@shufo/prettier-plugin-blade"],
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "options": {
+                "printWidth": 180,
+                "singleQuote": true,
+                "semi": false
+            }
+        }, {
+            "files": ["*.vue"],
+            "options": {
+                "semi": false,
+                "printWidth": 180,
+                "singleQuote": true,
+                "jsxSingleQuote": false,
+                "vueIndentScriptAndStyle": true
+            }
+        }, {
+            "files": ["*.blade.php"],
+            "options": {
+                "parser": "blade",
+                "printWidth": 240,
+                "sortTailwindcssClasses": true,
+                "tabWidth": 4,
+                "wrapAttributes": "preserve-aligned"
+            }
+        }
+    ]
+}

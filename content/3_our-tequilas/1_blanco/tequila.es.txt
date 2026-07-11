@@ -1,0 +1,13 @@
+Title: Blanco
+
+----
+
+Subtitle: Puro y Audaz
+
+----
+
+Description: Sin reposo y expresivo, nuestro Blanco captura el carácter puro del agave cocido con notas de camote, miel, minerales y vegetales, equilibradas por un final especiado. Un tequila con fuerza, frescura y autenticidad en cada sorbo.
+
+----
+
+Uuid: 95d716b051fc7cf9

@@ -1,0 +1,48 @@
+Title: Reposado
+
+----
+
+Variant: stacked
+
+----
+
+Flip: false
+
+----
+
+Presentationformat: square
+
+----
+
+Subtitle: Expressive & Harmonious
+
+----
+
+Description: Aged for 5 months in ex-Bourbon and Tennessee Whiskey barrels, our Reposado reveals layers of cooked agave, vanilla, caramel, and pepper, with a gentle, elegant finish that highlights the perfect balance between wood and agave.
+
+----
+
+Gallery:
+
+- file://pmckkhyuw3gqmdv7
+- file://m35zquuw0ohobxyp
+
+----
+
+Bottleimage: - file://kxruqsgbnirqoqjo
+
+----
+
+Presentationimage: - file://fiecfevktqmpddb6
+
+----
+
+Signature: - file://0fucsnwz9aweq60b
+
+----
+
+Stamp: - file://8gi5k8f54jsksrm2
+
+----
+
+Uuid: jsgkcwoh6gsf8h5h

@@ -1,0 +1,13 @@
+Title: Añejo
+
+----
+
+Subtitle: Rico y Complejo
+
+----
+
+Description: Madurado durante 12 meses y 2 semanas en barricas ex-Bourbon y de whiskey Tennessee, nuestro Añejo desarrolla notas profundas de agave cocido, cuero, nueces, almendras tostadas y pimienta negra, que conducen a un final largo y más seco.
+
+----
+
+Uuid: 4zv8cgdeknmvnk1z

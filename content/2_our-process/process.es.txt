@@ -1,0 +1,98 @@
+Title: Nuestro Proceso
+
+----
+
+Herotitle: Nuestro Proceso
+
+----
+
+Herosubtitle: Del Campo a la Copa
+
+----
+
+Herotext: Cada botella de Tequila Los Valores comienza en los campos de agave de Jalisco y Nayarit, donde seleccionamos a mano el Agave Azul Tequilana Weber tanto de tierras bajas como de tierras altas. Cada planta tarda entre cinco y siete años en alcanzar su plena madurez antes de ser cosechada y llevada a nuestra destilería.
+
+----
+
+Steps:
+
+-
+  image:
+    - file://cva4q3yfgdyj06dx
+  title: Cocción
+  intro: >
+    Utilizamos métodos de cocción tanto
+    tradicionales como modernos para capturar
+    todo el carácter del agave.
+  introwidth: 2/5
+  textleft: 'El 70% de nuestros agaves se cuece lentamente en hornos de mampostería durante 36 horas, permitiendo que los azúcares naturales se caramelicen suavemente. '
+  textright: 'El 30% restante se cuece en autoclaves durante 12 horas, conservando notas frescas y herbales y asegurando un perfil equilibrado. '
+  footer: >
+    Esta combinación aporta a nuestros Tequilas
+    profundidad y vivacidad.
+-
+  image:
+    - file://grd2ilfe8xhzozqe
+  title: Molienda
+  intro: >
+    Una vez perfectamente cocido, el agave se
+    tritura con un molino de rodillos en cuatro
+    etapas de extracción, obteniendo con cuidado
+    el dulce jugo de agave que se convertirá en
+    nuestro Tequila.
+  introwidth: 3/5
+  textleft: ""
+  textright: ""
+  footer: ""
+-
+  image:
+    - file://imtekcsaiwicfei5
+  title: Fermentación
+  intro: >
+    La fermentación se realiza en tanques de
+    acero inoxidable al aire libre durante unos
+    cinco días. Usamos una mezcla natural de agua
+    de pozo profundo, jugo de agave y levadura
+    silvestre, un proceso que realza la complejidad
+    y autenticidad de nuestros Tequilas.
+  introwidth: 4/5
+  textleft: ""
+  textright: ""
+  footer: ""
+-
+  image:
+    - file://8mdu8ni5s3xlaidw
+  title: Destilación
+  intro: >
+    Nuestros Tequilas se destilan dos veces en
+    alambiques de acero inoxidable, garantizando
+    pureza sin perder el carácter del agave. La
+    destilación se impulsa con calderas de vapor
+    a leña, añadiendo un toque tradicional al proceso.
+  introwidth: 3/5
+  textleft: ""
+  textright: ""
+  footer: ""
+-
+  image:
+    - file://bihvkqlm3stteqxb
+  title: Maduración
+  intro: >
+    Nuestra sala de maduración está en el mismo
+    lugar, donde cada expresión reposa tranquilamente
+    en barricas ex-Bourbon y de whiskey Tennessee.
+    Según la expresión, la maduración puede durar
+    desde unos meses hasta más de un año, desarrollando
+    sabores de vainilla, caramelo, nueces y especias.
+  introwidth: 2/5
+  textleft: ""
+  textright: ""
+  footer: ""
+
+----
+
+Closingsubtitle: Elaborado con Valores
+
+----
+
+Uuid: ourprocess000001

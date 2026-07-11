@@ -1,0 +1,45 @@
+Title: Blanco
+
+----
+
+Flip: false
+
+----
+
+Presentationformat: square
+
+----
+
+Subtitle: Pure & Bold
+
+----
+
+Description: Unaged and expressive, our Blanco captures the raw character of cooked agave with hints of sweet potato, honey, mineral, and vegetal notes, balanced by a peppery finish. A tequila with strength, freshness, and authenticity in every sip.
+
+----
+
+Gallery:
+
+- file://et2ijacggsunu4nm
+- file://vxxjfawzgdrvlnyl
+- file://so0sxwayvojnfrg4
+
+----
+
+Bottleimage: - file://xmlodqptqijkpitw
+
+----
+
+Presentationimage: - file://foqarfnlbumveizs
+
+----
+
+Signature: - file://zxuyyfkrdd0bz6rz
+
+----
+
+Stamp: - file://qllfugf6fygvwruz
+
+----
+
+Uuid: 95d716b051fc7cf9

@@ -1,0 +1,52 @@
+Title: Reposado Cristalino
+
+----
+
+Flip: true
+
+----
+
+Presentationformat: square
+
+----
+
+Markplacement: text
+
+----
+
+Columnimage: false
+
+----
+
+Subtitle: Modern & Refined
+
+----
+
+Description: Aged for 5 months in ex-Bourbon and Tennessee Whiskey barrels, then charcoal-filtered for clarity and soft texture.  This Cristalino offers bright notes of cooked agave, red and fresh fruits, and pepper, with an oily texture and a clean, round finish that’s both elegant and contemporary.
+
+----
+
+Gallery:
+
+- file://ea1avkvearaoxiy1
+- file://syhytrx0livlvvtx
+
+----
+
+Bottleimage: - file://p7r0xuiwpxsnzdqf
+
+----
+
+Presentationimage: - file://zryurzywgkwjolcu
+
+----
+
+Signature: - file://tjjg4hgvfhfgzvcg
+
+----
+
+Stamp: - file://p92xkebkioszwial
+
+----
+
+Uuid: ci4ogmujaets9xtx

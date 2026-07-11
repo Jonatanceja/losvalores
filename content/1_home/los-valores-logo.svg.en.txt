@@ -1,0 +1,13 @@
+Alt: Tequila Los Valores
+
+----
+
+Caption: <p>Tequila Los Valores Logo</p>
+
+----
+
+Uuid: ivuneipunddwhcgf
+
+----
+
+Template: image

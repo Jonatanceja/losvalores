@@ -1,0 +1,18 @@
+title:
+  en: Tequilas
+  es: Tequilas
+
+icon: wine
+
+sections:
+  products:
+    type: pages
+    label:
+      en: Tequilas
+      es: Tequilas
+    template: tequila
+    create: tequila
+    layout: cards
+    image:
+      query: page.bottleImage.toFile
+      back: white

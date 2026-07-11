@@ -1,0 +1,108 @@
+Title: Our Process
+
+----
+
+Heroimage: - file://ganjnukkhribrmlf
+
+----
+
+Herotitle: Our Proces
+
+----
+
+Herosubtitle: From Field to Glass
+
+----
+
+Herotext: Every bottle of Tequila Los Valores begins in the agave fields of Jalisco and Nayarit, where we hand-select Tequilana Weber Blue Agave from both the lowlands and highlands. Each plant takes between five and seven years to reach full maturity before being harvested and brought to our distillery.
+
+----
+
+Darknav: true
+
+----
+
+Steps:
+
+- 
+  image:
+    - file://cva4q3yfgdyj06dx
+  title: Cooking
+  intro: >
+    We use both traditional and modern
+    cooking methods to capture the full
+    range of agave character.
+  introwidth: 2/5
+  textleft: '70% of our agaves are slow-cooked in stone-brick ovens for 36 hours, allowing natural sugars to caramelize gently. '
+  textright: 'The remaining 30% is cooked in autoclaves for 12 hours, preserving fresh, herbal notes and ensuring a balanced profile. '
+  footer: >
+    This combination gives our Tequilas both
+    depth and vibrancy.
+- 
+  image:
+    - file://grd2ilfe8xhzozqe
+  title: Milling
+  intro: >
+    Once perfectly cooked, the agave is
+    crushed using a roller mill through four
+    extraction stages, carefully obtaining
+    the sweet agave juice that will become
+    our Tequila.
+  introwidth: 3/5
+  textleft: ""
+  textright: ""
+  footer: ""
+- 
+  image:
+    - file://imtekcsaiwicfei5
+  title: Fermentation
+  intro: >
+    Fermentation takes place in open-air
+    stainless steel tanks for about five
+    days.  We use a natural mix of deep
+    well water, agave juice, and wild yeast,
+    a process that enhances the complexity
+    and authenticity of our Tequilas.
+  introwidth: 4/5
+  textleft: ""
+  textright: ""
+  footer: ""
+- 
+  image:
+    - file://8mdu8ni5s3xlaidw
+  title: Distillation
+  intro: >
+    Our Tequilas are double-distilled in
+    stainless steel stills, ensuring purity
+    while retaining the character of the
+    agave. Distillation is powered by
+    wood-fired steam boilers, adding a
+    traditional touch to the process.
+  introwidth: 3/5
+  textleft: ""
+  textright: ""
+  footer: ""
+- 
+  image:
+    - file://bihvkqlm3stteqxb
+  title: Aging
+  intro: >
+    Our maturation room is located on-site,
+    where each expression rests peacefully
+    in ex-Bourbon and Tennessee Whiskey
+    barrels.  Depending on the
+    expression, aging can take a few months
+    to over a year, developing flavors of
+    vanilla, caramel, nuts, and spice. 
+  introwidth: 2/5
+  textleft: ""
+  textright: ""
+  footer: ""
+
+----
+
+Closingsubtitle: Crafted with Values
+
+----
+
+Uuid: ourprocess000001

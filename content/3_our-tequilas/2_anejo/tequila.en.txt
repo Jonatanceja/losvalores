@@ -1,0 +1,49 @@
+Title: Añejo
+
+----
+
+Flip: true
+
+----
+
+Presentationformat: square
+
+----
+
+Firstimagewidth: xl
+
+----
+
+Markoffset: higher
+
+----
+
+Subtitle: Rich & Complex
+
+----
+
+Description: Matured for 12 months and 2 weeks in ex-Bourbon and Tennessee Whiskey barrels, our Añejo develops deep notes of cooked agave, leather, walnuts, toasted almonds, and black pepper, leading to a long and drier finish.
+
+----
+
+Gallery: - file://ltmsugvbg3lmtfbd
+
+----
+
+Bottleimage: - file://nrlllppskv7dsz2y
+
+----
+
+Presentationimage: - file://93tqm5ck9ekarnsj
+
+----
+
+Signature: - file://ssmxtj52fozueuco
+
+----
+
+Stamp: - file://stn8nzdk2ozlcwvb
+
+----
+
+Uuid: 4zv8cgdeknmvnk1z
