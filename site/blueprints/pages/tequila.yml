@@ -73,6 +73,26 @@ tabs:
               full:
                 en: Full column
                 es: Columna completa
+          galleryAspect:
+            label:
+              en: Vertical image height
+              es: Altura de imágenes verticales
+            type: select
+            default: "3/4"
+            translate: false
+            options:
+              "3/4":
+                en: Standard (3:4)
+                es: Estándar (3:4)
+              "2/3":
+                en: Tall (2:3)
+                es: Alta (2:3)
+              "3/5":
+                en: Taller (3:5)
+                es: Más alta (3:5)
+              "9/16":
+                en: Tallest (9:16)
+                es: Muy alta (9:16)
           markOffset:
             label:
               en: Signature & stamp height

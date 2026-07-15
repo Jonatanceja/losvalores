@@ -42,6 +42,13 @@
         'full' => 'max-w-none',
         default => 'max-w-md',
     };
+
+    $galleryAspectClass = match ($galleryAspect) {
+        '2/3' => 'aspect-[2/3]',
+        '3/5' => 'aspect-[3/5]',
+        '9/16' => 'aspect-[9/16]',
+        default => 'aspect-[3/4]',
+    };
 @endphp
 
 <article class="mx-auto w-full max-w-8xl px-6 py-16 md:px-12 md:py-24">
@@ -108,12 +115,12 @@
             @endunless
 
             @if ($showColumnImage)
-                <div class="relative aspect-[3/4] w-full overflow-hidden {{ $firstImageWidthClass }} {{ $stacked ? 'md:-mt-64' : 'mt-10' }}">
+                <div class="relative w-full overflow-hidden {{ $galleryAspectClass }} {{ $firstImageWidthClass }} {{ $stacked ? 'md:-mt-64' : 'mt-10' }}">
                     <x-picture
                         :file="$media->first()"
                         sizes="(min-width: 768px) 40vw, 100vw"
                         data-parallax="35"
-                        class="absolute inset-x-0 -top-1/4 h-[150%] w-full object-cover"
+                        class="absolute inset-x-0 -top-[15%] h-[130%] w-full object-cover"
                     />
                 </div>
             @endif
@@ -125,12 +132,12 @@
     @if ($rest->isNotEmpty())
         <div class="mt-12 md:mt-20 {{ $stacked ? 'flex flex-col items-start gap-8' : 'grid grid-cols-1 gap-0 md:grid-cols-2' }}">
             @foreach ($rest as $image)
-                <div class="relative w-full overflow-hidden {{ $stacked ? 'aspect-[3/2] md:w-3/4' : 'aspect-[3/4]' }}">
+                <div class="relative w-full overflow-hidden {{ $stacked ? 'aspect-[3/2] md:w-3/4' : $galleryAspectClass }}">
                     <x-picture
                         :file="$image"
                         sizes="{{ $stacked ? '(min-width: 768px) 75vw, 100vw' : '(min-width: 768px) 50vw, 100vw' }}"
                         data-parallax="{{ $loop->even ? 55 : 35 }}"
-                        class="absolute inset-x-0 -top-1/4 h-[150%] w-full object-cover"
+                        class="absolute inset-x-0 -top-[15%] h-[130%] w-full object-cover"
                     />
                 </div>
             @endforeach

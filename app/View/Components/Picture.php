@@ -6,6 +6,7 @@ use Closure;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Kirby\Cms\File;
+use Kirby\Image\Focus;
 
 class Picture extends Component
 {
@@ -16,6 +17,13 @@ class Picture extends Component
 
     public function render(): View|Closure|string
     {
-        return view('components.picture');
+        // Focal point set in the Panel → CSS object-position (as "x% y%"), so
+        // object-cover crops toward it instead of the center.
+        $focus = null;
+        if ($this->file->focus()->isNotEmpty()) {
+            $focus = Focus::normalize($this->file->focus()->value());
+        }
+
+        return view('components.picture', ['focus' => $focus]);
     }
 }

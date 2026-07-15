@@ -2,11 +2,35 @@ Title: Blanco
 
 ----
 
+Variant: 
+
+----
+
 Flip: false
 
 ----
 
 Presentationformat: square
+
+----
+
+Firstimagewidth: 
+
+----
+
+Galleryaspect: 2/3
+
+----
+
+Markoffset: 
+
+----
+
+Markplacement: 
+
+----
+
+Columnimage: true
 
 ----
 
@@ -22,7 +46,7 @@ Gallery:
 
 - file://et2ijacggsunu4nm
 - file://vxxjfawzgdrvlnyl
-- file://so0sxwayvojnfrg4
+- file://ieg4blfk9swkwpa3
 
 ----
 

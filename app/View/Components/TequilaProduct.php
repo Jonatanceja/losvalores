@@ -23,6 +23,7 @@ class TequilaProduct extends Component
             'variant' => $this->page->variant()->or('standard')->value(),
             'presentationFormat' => $this->page->presentationFormat()->or('landscape')->value(),
             'firstImageWidth' => $this->page->firstImageWidth()->or('md')->value(),
+            'galleryAspect' => $this->page->galleryAspect()->or('3/4')->value(),
             'markOffset' => $this->page->markOffset()->or('default')->value(),
             'markPlacement' => $this->page->markPlacement()->or('bottle')->value(),
             'columnImage' => $this->page->columnImage()->isEmpty() ? true : $this->page->columnImage()->toBool(),

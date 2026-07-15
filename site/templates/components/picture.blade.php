@@ -13,6 +13,7 @@
         src="{{ $file->url() }}"
         srcset="{{ $file->srcset('webp') }}"
         sizes="{{ $sizes }}"
+        @if ($focus) style="object-position: {{ $focus }}" @endif
         {{ $attributes->merge(['alt' => $file->alt()->value(), 'loading' => 'lazy']) }}
     >
 @endif
