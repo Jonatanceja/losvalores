@@ -16,6 +16,7 @@ class Nav extends Component
         $languages = [];
         foreach (kirby()->languages() as $language) {
             $languages[] = [
+                'code' => $language->code(),
                 'label' => strtoupper($language->code()),
                 'url' => $page ? $page->url($language->code()) : site()->url($language->code()),
                 'active' => kirby()->language()?->code() === $language->code(),

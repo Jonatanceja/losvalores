@@ -10,4 +10,20 @@ Description: Reposado durante 5 meses en barricas ex-Bourbon y de whiskey Tennes
 
 ----
 
+Metatitle: Tequila Reposado Cristalino | Moderno y Refinado | Tequila Los Valores
+
+----
+
+Metadescription: Reposado 5 meses y filtrado con carbón para lograr claridad, nuestro Cristalino ofrece notas brillantes de agave cocido, frutas rojas y pimienta.
+
+----
+
+Ogtitle: Reposado Cristalino — Moderno y Refinado
+
+----
+
+Ogdescription: Filtrado con carbón tras 5 meses de reposo, nuestro Cristalino es elegante, contemporáneo y lleno de notas brillantes de agave y fruta.
+
+----
+
 Uuid: ci4ogmujaets9xtx

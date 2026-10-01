@@ -2,10 +2,6 @@ Title: Inicio
 
 ----
 
-Bottlename: Cristalino
-
-----
-
 Herotext:
 
 Respetar a nuestros ancestros, familia, tierra y Tradición.
@@ -58,6 +54,22 @@ Distillerytext: Tequila Los Valores comparte con orgullo su nombre con nuestra d
 ----
 
 Text:
+
+----
+
+Metatitle: Tequila Los Valores | Tequila Artesanal Familiar de Jalisco
+
+----
+
+Metadescription: Tequila artesanal de una destilería familiar en Ixtlahuacán de los Membrillos, Jalisco. Descubre nuestras expresiones Blanco, Reposado, Añejo y Cristalino.
+
+----
+
+Ogtitle: Tequila Los Valores — Arraigados en la Familia y la Tradición
+
+----
+
+Ogdescription: Fundada por el Maestro Destilador Ricardo Antonio Aguilar, Tequila Los Valores es un tequila familiar elaborado con herencia, autenticidad y respeto por la tierra.
 
 ----
 

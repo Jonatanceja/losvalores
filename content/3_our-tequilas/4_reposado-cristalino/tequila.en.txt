@@ -2,11 +2,27 @@ Title: Reposado Cristalino
 
 ----
 
+Variant: 
+
+----
+
 Flip: true
 
 ----
 
 Presentationformat: square
+
+----
+
+Firstimagewidth: 
+
+----
+
+Galleryaspect: 
+
+----
+
+Markoffset: 
 
 ----
 
@@ -29,11 +45,11 @@ Description: Aged for 5 months in ex-Bourbon and Tennessee Whiskey barrels, then
 Gallery:
 
 - file://ea1avkvearaoxiy1
-- file://syhytrx0livlvvtx
+- file://dhuoed0bzwxlxr1g
 
 ----
 
-Bottleimage: - file://p7r0xuiwpxsnzdqf
+Bottleimage: - file://ofhpsxlopvy2edal
 
 ----
 
@@ -46,6 +62,22 @@ Signature: - file://tjjg4hgvfhfgzvcg
 ----
 
 Stamp: - file://p92xkebkioszwial
+
+----
+
+Metatitle: Reposado Cristalino Tequila | Modern & Refined | Tequila Los Valores
+
+----
+
+Metadescription: Aged 5 months then charcoal-filtered for clarity, our Cristalino offers bright notes of cooked agave, red fruits, and pepper in a clean, round finish.
+
+----
+
+Ogtitle: Reposado Cristalino — Modern & Refined
+
+----
+
+Ogdescription: Charcoal-filtered for clarity after 5 months of aging, our Cristalino is elegant, contemporary, and full of bright agave and fruit notes.
 
 ----
 

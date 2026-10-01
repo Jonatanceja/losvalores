@@ -6,7 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="@csrf()">
 
-    <title>{{ page()->title() }} | {{ site()->title() }}</title>
+    @php
+        $seoPage = page();
+        // metaTitle, when set, is authored as a full title (already includes the
+        // brand) — don't re-append the site title on top of it.
+        $metaTitle = $seoPage->metaTitle()->value();
+        $title = $metaTitle ?: $seoPage->title() . ' | ' . site()->title();
+        $metaDescription = $seoPage->metaDescription()->value();
+        $ogTitle = $seoPage->ogTitle()->or($metaTitle ?: $title)->value();
+        $ogDescription = $seoPage->ogDescription()->or($metaDescription)->value();
+        $ogImage = $seoPage->ogImage()->toFile() ?? $seoPage->images()->first();
+        $noIndex = $seoPage->noIndex()->toBool();
+    @endphp
+
+    <title>{{ $title }}</title>
+
+    @if ($metaDescription)
+        <meta name="description" content="{{ $metaDescription }}">
+    @endif
+
+    @if ($noIndex)
+        <meta name="robots" content="noindex, nofollow">
+    @endif
+
+    <link rel="canonical" href="{{ $seoPage->url() }}">
+
+    {{-- Open Graph / social sharing --}}
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site()->title() }}">
+    <meta property="og:locale" content="{{ kirby()->language()?->code() === 'es' ? 'es_ES' : 'en_US' }}">
+    <meta property="og:url" content="{{ $seoPage->url() }}">
+    <meta property="og:title" content="{{ $ogTitle }}">
+    @if ($ogDescription)
+        <meta property="og:description" content="{{ $ogDescription }}">
+    @endif
+    @if ($ogImage)
+        <meta property="og:image" content="{{ $ogImage->url() }}">
+        <meta property="og:image:width" content="{{ $ogImage->width() }}">
+        <meta property="og:image:height" content="{{ $ogImage->height() }}">
+    @endif
+
+    <meta name="twitter:card" content="{{ $ogImage ? 'summary_large_image' : 'summary' }}">
+    <meta name="twitter:title" content="{{ $ogTitle }}">
+    @if ($ogDescription)
+        <meta name="twitter:description" content="{{ $ogDescription }}">
+    @endif
+    @if ($ogImage)
+        <meta name="twitter:image" content="{{ $ogImage->url() }}">
+    @endif
 
     @if ($favicon = site()->favicon()->toFile())
         <link rel="icon" href="{{ $favicon->url() }}" type="{{ $favicon->mime() }}">
@@ -72,8 +119,13 @@
 </head>
 
 <body class="relative">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-black">
+        {{ t('nav.skip', 'Skip to content') }}
+    </a>
     <x-nav />
-    {{ $slot }}
+    <main id="main-content">
+        {{ $slot }}
+    </main>
     <x-footer />
 </body>
 

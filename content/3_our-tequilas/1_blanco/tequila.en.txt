@@ -2,6 +2,38 @@ Title: Blanco
 
 ----
 
+Subtitle: Pure & Bold
+
+----
+
+Description: Unaged and expressive, our Blanco captures the raw character of cooked agave with hints of sweet potato, honey, mineral, and vegetal notes, balanced by a peppery finish. A tequila with strength, freshness, and authenticity in every sip.
+
+----
+
+Gallery:
+
+- file://et2ijacggsunu4nm
+- file://oa31obicsavozpce
+- file://xatyfdahqzlsq7eq
+
+----
+
+Bottleimage: - file://nvjztglsk9ljcpiw
+
+----
+
+Presentationimage: - file://foqarfnlbumveizs
+
+----
+
+Signature: - file://zxuyyfkrdd0bz6rz
+
+----
+
+Stamp: - file://qllfugf6fygvwruz
+
+----
+
 Variant: 
 
 ----
@@ -34,35 +66,27 @@ Columnimage: true
 
 ----
 
-Subtitle: Pure & Bold
+Metatitle: Blanco Tequila | Pure & Bold | Tequila Los Valores
 
 ----
 
-Description: Unaged and expressive, our Blanco captures the raw character of cooked agave with hints of sweet potato, honey, mineral, and vegetal notes, balanced by a peppery finish. A tequila with strength, freshness, and authenticity in every sip.
+Metadescription: Unaged and expressive, our Blanco captures the raw character of cooked agave with sweet potato, honey, and mineral notes, balanced by a peppery finish.
 
 ----
 
-Gallery:
-
-- file://et2ijacggsunu4nm
-- file://vxxjfawzgdrvlnyl
-- file://ieg4blfk9swkwpa3
+Ogtitle: Blanco — Pure & Bold
 
 ----
 
-Bottleimage: - file://xmlodqptqijkpitw
+Ogdescription: Unaged and expressive, our Blanco captures the raw character of cooked agave with strength, freshness, and authenticity in every sip.
 
 ----
 
-Presentationimage: - file://foqarfnlbumveizs
+Ogimage: 
 
 ----
 
-Signature: - file://zxuyyfkrdd0bz6rz
-
-----
-
-Stamp: - file://qllfugf6fygvwruz
+Noindex: false
 
 ----
 

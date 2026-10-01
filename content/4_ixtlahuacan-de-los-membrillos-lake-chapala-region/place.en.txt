@@ -40,4 +40,28 @@ Featuretext: Lake Chapala is Mexico’s largest freshwater lake, stretching over
 
 ----
 
+Metatitle: Ixtlahuacán de los Membrillos & Lake Chapala | Tequila Los Valores
+
+----
+
+Metadescription: Discover the town and microclimate behind Tequila Los Valores — volcanic soils, high altitude, and the influence of Lake Chapala on our agave and water.
+
+----
+
+Ogtitle: The Region Behind Our Tequila
+
+----
+
+Ogdescription: Perched above Lake Chapala in Jalisco, Ixtlahuacán de los Membrillos gives Tequila Los Valores a rare microclimate of altitude, volcanic soil, and lake-influenced humidity.
+
+----
+
+Ogimage: - file://6r3hetfjnrby3ui6
+
+----
+
+Noindex: false
+
+----
+
 Uuid: placepage0000001

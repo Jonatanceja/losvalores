@@ -10,4 +10,20 @@ Description: Reposado durante 5 meses en barricas ex-Bourbon y de whiskey Tennes
 
 ----
 
+Metatitle: Tequila Reposado | Expresivo y Armonioso | Tequila Los Valores
+
+----
+
+Metadescription: Reposado durante 5 meses en barricas ex-Bourbon y de whiskey Tennessee, nuestro Reposado revela capas de agave cocido, vainilla, caramelo y pimienta.
+
+----
+
+Ogtitle: Reposado — Expresivo y Armonioso
+
+----
+
+Ogdescription: Reposado durante 5 meses en barricas ex-Bourbon y de whiskey Tennessee, nuestro Reposado ofrece un equilibrio suave y elegante entre madera y agave.
+
+----
+
 Uuid: jsgkcwoh6gsf8h5h

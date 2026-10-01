@@ -6,15 +6,28 @@ Logo: - file://ivuneipunddwhcgf
 
 ----
 
-Bottle: - file://tzxnryrnhnernv4y
-
-----
-
 Signature: - file://wifkoxtav2f61ubw
 
 ----
 
-Bottlename: Cristalino
+Bottles:
+
+- 
+  image:
+    - file://cs1ar0vnmmrrcwft
+  name: Blanco
+- 
+  image:
+    - file://zt8qwhux2xcq7f96
+  name: Reposado
+- 
+  image:
+    - file://vijfjjqeedijwdya
+  name: Añejo
+- 
+  image:
+    - file://u3kv9vnc1utuiqg8
+  name: Cristalino
 
 ----
 
@@ -100,8 +113,40 @@ Distillerytext: Tequila Los Valores proudly shares its name with our distillery,
 
 ----
 
+Metatitle: Tequila Los Valores | Family-Made Tequila from Jalisco
+
+----
+
+Metadescription: Handcrafted tequila from a family-owned distillery in Ixtlahuacán de los Membrillos, Jalisco. Discover our Blanco, Reposado, Añejo, and Cristalino.
+
+----
+
+Ogtitle: Tequila Los Valores — Rooted in Family and Tradition
+
+----
+
+Ogdescription: Founded by Master Distiller Ricardo Antonio Aguilar, Tequila Los Valores is family-made tequila crafted with heritage, authenticity, and respect for the land.
+
+----
+
+Ogimage: - file://m2nbp46rwktyyxoh
+
+----
+
+Noindex: false
+
+----
+
 Text: 
 
 ----
 
 Uuid: sm3xEhovFJsimsbQ
+
+----
+
+Bottle: - file://u3kv9vnc1utuiqg8
+
+----
+
+Bottlename: Cristalino

@@ -6,7 +6,7 @@ Heroimage: - file://ganjnukkhribrmlf
 
 ----
 
-Herotitle: Our Proces
+Herotitle: Our Process
 
 ----
 
@@ -102,6 +102,30 @@ Steps:
 ----
 
 Closingsubtitle: Crafted with Values
+
+----
+
+Metatitle: Our Process | Tequila Los Valores
+
+----
+
+Metadescription: From hand-selected Jalisco agave to double distillation and barrel aging, discover every step behind Tequila Los Valores, made from field to glass.
+
+----
+
+Ogtitle: From Field to Glass — Our Process
+
+----
+
+Ogdescription: Every bottle of Tequila Los Valores begins in the agave fields of Jalisco and Nayarit. See how we cook, ferment, distill, and age each expression.
+
+----
+
+Ogimage: - file://x52hmjwjwsc7arqc
+
+----
+
+Noindex: false
 
 ----
 

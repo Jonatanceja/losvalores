@@ -2,6 +2,30 @@ Title: Our Tequilas
 
 ----
 
+Metatitle: Our Tequilas | Tequila Los Valores
+
+----
+
+Metadescription: Explore our four expressions — Blanco, Reposado, Añejo, and Reposado Cristalino — each crafted to showcase the versatility and soul of our agave.
+
+----
+
+Ogtitle: Our Tequilas
+
+----
+
+Ogdescription: From bold and pure to rich and complex, discover the four expressions of Tequila Los Valores.
+
+----
+
+Ogimage: - file://rl0cl8rxorozwjqz
+
+----
+
+Noindex: false
+
+----
+
 Introtitle: 
 
 ----

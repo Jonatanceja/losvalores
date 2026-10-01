@@ -2,6 +2,10 @@ Title: Añejo
 
 ----
 
+Variant: 
+
+----
+
 Flip: true
 
 ----
@@ -14,7 +18,19 @@ Firstimagewidth: xl
 
 ----
 
+Galleryaspect: 
+
+----
+
 Markoffset: higher
+
+----
+
+Markplacement: 
+
+----
+
+Columnimage: true
 
 ----
 
@@ -30,7 +46,7 @@ Gallery: - file://ltmsugvbg3lmtfbd
 
 ----
 
-Bottleimage: - file://nrlllppskv7dsz2y
+Bottleimage: - file://bg6ij2a8689ullse
 
 ----
 
@@ -43,6 +59,22 @@ Signature: - file://ssmxtj52fozueuco
 ----
 
 Stamp: - file://stn8nzdk2ozlcwvb
+
+----
+
+Metatitle: Añejo Tequila | Rich & Complex | Tequila Los Valores
+
+----
+
+Metadescription: Matured for 12 months and 2 weeks in ex-Bourbon and Tennessee Whiskey barrels, our Añejo develops deep notes of leather, walnuts, and black pepper.
+
+----
+
+Ogtitle: Añejo — Rich & Complex
+
+----
+
+Ogdescription: Matured for over a year in ex-Bourbon and Tennessee Whiskey barrels, our Añejo offers deep, complex notes and a long, drier finish.
 
 ----
 

@@ -10,4 +10,20 @@ Description: Sin reposo y expresivo, nuestro Blanco captura el carácter puro de
 
 ----
 
+Metatitle: Tequila Blanco | Puro y Audaz | Tequila Los Valores
+
+----
+
+Metadescription: Sin reposo y expresivo, nuestro Blanco captura el carácter puro del agave cocido con notas de camote, miel y minerales, equilibradas por un final especiado.
+
+----
+
+Ogtitle: Blanco — Puro y Audaz
+
+----
+
+Ogdescription: Sin reposo y expresivo, nuestro Blanco captura el carácter puro del agave cocido con fuerza, frescura y autenticidad en cada sorbo.
+
+----
+
 Uuid: 95d716b051fc7cf9

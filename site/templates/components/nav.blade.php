@@ -6,7 +6,7 @@
     Desktop: the centered top nav plus a black sticky bar that drops in on scroll.
     Mobile: a hamburger (in both bars) opens the full-screen slide-in menu below.
 --}}
-<nav data-nav-top @class(['absolute inset-x-0 top-0 z-30 w-full', 'text-white' => $dark])>
+<nav data-nav-top aria-label="{{ t('nav.primary', 'Primary navigation') }}" @class(['absolute inset-x-0 top-0 z-30 w-full', 'text-white' => $dark])>
     <div class="mx-auto flex max-w-6xl items-center justify-between px-6 pt-10 md:flex-col md:justify-center">
 
         {{-- Brand logo. On mobile it sits on the left; on desktop it is centered
@@ -21,7 +21,14 @@
         </a>
 
         {{-- Hamburger (mobile only) --}}
-        <button type="button" data-menu-open aria-label="Open menu" class="shrink-0 md:hidden">
+        <button
+            type="button"
+            data-menu-open
+            aria-label="{{ t('nav.open', 'Open menu') }}"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            class="shrink-0 md:hidden"
+        >
             <svg width="42" height="42" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                 <line x1="4" y1="10" x2="26" y2="10" />
                 <line x1="9" y1="15" x2="26" y2="15" />
@@ -54,6 +61,8 @@
                         @endif
                         <a
                             href="{{ $language['url'] }}"
+                            hreflang="{{ $language['code'] }}"
+                            lang="{{ $language['code'] }}"
                             @class([
                                 'transition-opacity hover:opacity-60',
                                 'font-bold' => $language['active'],

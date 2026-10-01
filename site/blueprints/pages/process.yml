@@ -122,3 +122,84 @@ tabs:
           en: Subtitle
           es: Subtítulo
         type: text
+
+  # SEO
+  seo:
+    label:
+      en: SEO
+      es: SEO
+    icon: search
+    columns:
+
+      main:
+        width: 2/3
+        fields:
+          metaTitle:
+            label:
+              en: Meta title
+              es: Meta título
+            type: text
+            help:
+              en: Shown in search results and browser tabs. Falls back to the page title when empty.
+              es: Se muestra en los resultados de búsqueda y en las pestañas del navegador. Si se deja vacío, se usa el título de la página.
+          metaDescription:
+            label:
+              en: Meta description
+              es: Meta descripción
+            type: textarea
+            size: small
+            counter: true
+            maxlength: 160
+            help:
+              en: Short summary shown in search results. Aim for 150–160 characters.
+              es: Resumen corto que se muestra en los resultados de búsqueda. Procura 150–160 caracteres.
+          ogHeadline:
+            type: headline
+            label:
+              en: Open Graph (social sharing)
+              es: Open Graph (redes sociales)
+          ogTitle:
+            label:
+              en: Open Graph title
+              es: Título Open Graph
+            type: text
+            help:
+              en: Title shown when this page is shared on Facebook, WhatsApp, etc. Falls back to the meta title when empty.
+              es: Título que se muestra al compartir esta página en Facebook, WhatsApp, etc. Si se deja vacío, se usa el meta título.
+          ogDescription:
+            label:
+              en: Open Graph description
+              es: Descripción Open Graph
+            type: textarea
+            size: small
+            counter: true
+            maxlength: 200
+            help:
+              en: Description shown when this page is shared. Falls back to the meta description when empty.
+              es: Descripción que se muestra al compartir esta página. Si se deja vacío, se usa la meta descripción.
+
+      sidebar:
+        width: 1/3
+        fields:
+          ogImage:
+            label:
+              en: Open Graph image
+              es: Imagen Open Graph
+            type: files
+            max: 1
+            multiple: false
+            query: page.images
+            uploads: image
+            translate: false
+            image:
+              back: white
+            help:
+              en: Recommended 1200×630px. Falls back to the page's main image when empty.
+              es: Recomendado 1200×630px. Si se deja vacío, se usa la imagen principal de la página.
+          noIndex:
+            label:
+              en: Hide from search engines
+              es: Ocultar de buscadores
+            type: toggle
+            default: false
+            translate: false

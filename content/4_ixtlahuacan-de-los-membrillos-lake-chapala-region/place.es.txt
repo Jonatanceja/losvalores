@@ -28,4 +28,20 @@ Featuretext: El Lago de Chapala es el lago de agua dulce más grande de México,
 
 ----
 
+Metatitle: Ixtlahuacán de los Membrillos y Lago de Chapala | Tequila Los Valores
+
+----
+
+Metadescription: Conoce el pueblo y el microclima detrás de Tequila Los Valores: suelos volcánicos, altitud y la influencia del Lago de Chapala en nuestro agave y agua.
+
+----
+
+Ogtitle: La Región Detrás de Nuestro Tequila
+
+----
+
+Ogdescription: Sobre el Lago de Chapala en Jalisco, Ixtlahuacán de los Membrillos le da a Tequila Los Valores un microclima único de altitud, suelo volcánico y humedad del lago.
+
+----
+
 Uuid: placepage0000001

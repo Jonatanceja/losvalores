@@ -10,4 +10,20 @@ Description: Madurado durante 12 meses y 2 semanas en barricas ex-Bourbon y de w
 
 ----
 
+Metatitle: Tequila Añejo | Rico y Complejo | Tequila Los Valores
+
+----
+
+Metadescription: Madurado 12 meses y 2 semanas en barricas ex-Bourbon y de whiskey Tennessee, nuestro Añejo desarrolla notas profundas de cuero, nueces y pimienta negra.
+
+----
+
+Ogtitle: Añejo — Rico y Complejo
+
+----
+
+Ogdescription: Madurado más de un año en barricas ex-Bourbon y de whiskey Tennessee, nuestro Añejo ofrece notas profundas y complejas con un final largo y seco.
+
+----
+
 Uuid: 4zv8cgdeknmvnk1z

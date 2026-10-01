@@ -95,4 +95,20 @@ Closingsubtitle: Elaborado con Valores
 
 ----
 
+Metatitle: Nuestro Proceso | Tequila Los Valores
+
+----
+
+Metadescription: Desde el agave seleccionado a mano en Jalisco hasta la doble destilación y la maduración en barrica, conoce cada paso detrás de Tequila Los Valores.
+
+----
+
+Ogtitle: Del Campo a la Copa — Nuestro Proceso
+
+----
+
+Ogdescription: Cada botella de Tequila Los Valores comienza en los campos de agave de Jalisco y Nayarit. Descubre cómo cocemos, fermentamos, destilamos y maduramos cada expresión.
+
+----
+
 Uuid: ourprocess000001
