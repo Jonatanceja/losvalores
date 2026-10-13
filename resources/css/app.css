@@ -14,4 +14,5 @@
     --font-elzevir: '1669 Elzevir W01', ui-serif, Georgia, serif;
     --font-abhaya: 'Abhaya Libre', ui-serif, Georgia, serif;
     --font-toyprint: '1920 My Toy Print', ui-serif, Georgia, serif;
+    --font-toyprint--font-feature-settings: 'calt' 0, 'liga' 0;
 }
