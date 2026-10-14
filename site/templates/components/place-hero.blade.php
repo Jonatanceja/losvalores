@@ -5,22 +5,24 @@
     sit over the image, below the nav. Each fades in on load, then parallaxes
     on scroll (parallax on the wrapper, fade on the inner element).
 --}}
-<section class="flex min-h-screen w-full p-4 md:p-6">
-    <div class="relative w-full flex-1 overflow-hidden">
+<section class="w-full p-4 md:p-6">
+    <div class="relative w-full overflow-hidden">
 
-        {{-- Background image (inset within the padded section) --}}
+        {{-- Image in normal flow at its natural height (full on desktop) so the
+             section grows with it and the text never lands on the trees. On
+             mobile it keeps a screen-high minimum, cropped with object-cover. --}}
         @if ($image)
             <x-picture
                 :file="$image"
                 sizes="100vw"
                 alt=""
                 aria-hidden="true"
-                class="absolute inset-0 -z-10 h-full w-full object-cover"
+                class="block min-h-svh w-full object-cover md:min-h-0"
             />
         @endif
 
         {{-- Title (left) + text (right), below the nav --}}
-        <div class="relative z-10 mx-auto max-w-6xl px-6 pt-36 md:px-12 md:pt-48">
+        <div class="absolute inset-x-0 top-0 z-10 mx-auto max-w-6xl px-6 pt-36 md:px-12 md:pt-48">
             <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
 
                 @if ($title->isNotEmpty())
