@@ -36,7 +36,11 @@ Featuretitle: Lake Chapala (Lago de Chapala)
 
 ----
 
-Featuretext: Lake Chapala is Mexico’s largest freshwater lake, stretching over 80 km (50 miles) long and about 18 km (11 miles) wide. It forms part of the Lerma-Santiago hydrological basin - the same water system that supports much of western Jalisco’s agave fields.
+Featuretext: Vast and quiet, Lake Chapala unfolds across more than 80 km (50 miles) of horizon, the largest freshwater lake in Mexico, some 18 km (11 miles) from shore to shore. It is one breath of a greater body of water, the Lerma-Santiago basin, whose veins reach across western Jalisco, into the same red earth where the agave grows.
+
+----
+
+Featureimagetwo: - file://gnrptajbnzzpd66t
 
 ----
 

@@ -4,7 +4,7 @@
     caption/text below. Padded so the site paper texture frames the block.
     Title + text fade in, then parallax on scroll.
 --}}
-@if ($image || $title->isNotEmpty() || $text->isNotEmpty())
+@if ($image || $imageTwo || $title->isNotEmpty() || $text->isNotEmpty())
     <section class="w-full px-4 py-16 md:px-6 md:py-24">
         <div class="mx-auto max-w-8xl">
 
@@ -16,12 +16,12 @@
                         sizes="(min-width: 1152px) 72rem, 100vw"
                         alt=""
                         aria-hidden="true"
-                        class="h-full w-full object-cover invert"
+                        class="h-full w-full object-cover mix-blend-multiply"
                     />
 
                     @if ($title->isNotEmpty())
                         <figcaption class="absolute inset-x-0 top-0 px-6 pt-8 text-center md:pt-12" data-parallax="30">
-                            <h2 data-fade class="font-elzevir text-2xl text-white italic md:text-4xl">
+                            <h2 data-fade class="font-elzevir text-2xl italic md:text-4xl">
                                 {{ $title }}
                             </h2>
                         </figcaption>
@@ -40,6 +40,15 @@
                         {!! $text->kt() !!}
                     </div>
                 </div>
+            @endif
+
+            {{-- Second image below the text --}}
+            @if ($imageTwo)
+                <x-picture
+                    :file="$imageTwo"
+                    sizes="(min-width: 1152px) 72rem, 100vw"
+                    class="mx-auto mt-10 w-full object-cover mix-blend-multiply md:mt-16 md:w-5/6"
+                />
             @endif
         </div>
     </section>

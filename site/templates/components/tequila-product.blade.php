@@ -51,7 +51,7 @@
     };
 @endphp
 
-<article class="mx-auto w-full max-w-8xl px-6 py-16 md:px-12 md:py-24">
+<article class="mx-auto w-full max-w-8xl px-6 py-16 md:px-12 md:py-24 {{ $stacked ? 'md:mt-40' : '' }}">
 
     <div class="mx-auto grid max-w-8xl grid-cols-1 items-start gap-10 md:grid-cols-2 md:gap-32">
 

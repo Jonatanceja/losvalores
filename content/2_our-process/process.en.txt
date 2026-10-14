@@ -6,7 +6,7 @@ Heroimage: - file://ganjnukkhribrmlf
 
 ----
 
-Herotitle: Our Process
+Herotitle: Our process
 
 ----
 
@@ -49,12 +49,14 @@ Steps:
     the sweet agave juice that will become
     our Tequila.
   introwidth: 3/5
-  textleft: ""
-  textright: ""
-  footer: ""
+  textleft: '70% of our agaves are slow-cooked in stone-brick ovens for 36 hours, allowing natural sugars to caramelize gently. '
+  textright: 'The remaining 30% is cooked in autoclaves for 12 hours, preserving fresh, herbal notes and ensuring a balanced profile. '
+  footer: >
+    This combination gives our Tequilas both
+    depth and vibrancy.
 - 
   image:
-    - file://imtekcsaiwicfei5
+    - file://lm1zqwl4dwlowmiz
   title: Fermentation
   intro: >
     Fermentation takes place in open-air
@@ -89,11 +91,11 @@ Steps:
   intro: >
     Our maturation room is located on-site,
     where each expression rests peacefully
-    in ex-Bourbon and Tennessee Whiskey
-    barrels.  Depending on the
-    expression, aging can take a few months
-    to over a year, developing flavors of
-    vanilla, caramel, nuts, and spice. 
+    in ex-Bourbon barrels. Depending on
+    the expression, aging can take a few
+    months to over a year, developing
+    flavors of vanilla, caramel, nuts, and
+    spice. 
   introwidth: 2/5
   textleft: ""
   textright: ""

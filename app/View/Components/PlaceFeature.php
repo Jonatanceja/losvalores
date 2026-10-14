@@ -21,7 +21,8 @@ class PlaceFeature extends Component
         return view('components.place-feature', [
             'image' => $this->page->featureImage()->toFile(),
             'title' => $this->page->featureTitle(),
-            'text'  => $this->page->featureText(),
+            'text' => $this->page->featureText(),
+            'imageTwo' => $this->page->featureImageTwo()->toFile(),
         ]);
     }
 }

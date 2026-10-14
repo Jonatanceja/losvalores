@@ -92,6 +92,18 @@ tabs:
           en: Text
           es: Texto
         type: textarea
+      featureImageTwo:
+        label:
+          en: Second image (below the text)
+          es: Segunda imagen (debajo del texto)
+        type: files
+        max: 1
+        multiple: false
+        query: page.images
+        uploads: image
+        translate: false
+        image:
+          back: white
 
   # SEO
   seo:
