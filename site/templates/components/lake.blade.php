@@ -4,19 +4,19 @@
     Full-width illustration with the title overlaid top-left and the text
     top-right (over the engraving's sky), matching the design.
 --}}
-<section class="relative w-full">
+<section class="relative flex w-full flex-col md:block">
 
-    {{-- Illustration --}}
+    {{-- Illustration (mobile: below the text; md+: the text overlays it) --}}
     @if ($illustration)
         <x-picture
             :file="$illustration"
             sizes="100vw"
-            class="w-full object-cover"
+            class="order-2 w-full object-cover md:order-none"
         />
     @endif
 
     {{-- Title (top-left) + text (top-right), overlaid on the sky area --}}
-    <div class="absolute inset-x-0 top-0 z-10 px-6 pb-8 pt-20 md:px-12 md:pb-10 md:pt-32">
+    <div class="relative z-10 order-1 px-6 pb-0 pt-16 md:absolute md:inset-x-0 md:top-0 md:px-12 md:pb-10 md:pt-32">
         <div class="mx-auto flex max-w-6xl flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
 
             @if ($title->isNotEmpty())

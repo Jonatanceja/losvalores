@@ -77,7 +77,7 @@ Placetexttwo: We’re proud to be a family-owned and operated company committed 
 
 ----
 
-Placetitletwo: A Family-Owned Mexican Brand
+Placetitletwo: A Family-Owned Brand
 
 ----
 

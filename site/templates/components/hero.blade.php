@@ -4,7 +4,7 @@
     Fields: $logo, $bottle, $signature, $background, $illustration (File|null)
             $bottleName, $heroText (Kirby field)
 --}}
-<section class="relative flex min-h-screen w-full flex-col overflow-hidden">
+<section class="relative flex w-full md:min-h-screen flex-col overflow-hidden">
 
     {{-- Background layer. Its own layer so the overlay blend only affects the
          background (fusing it with the site's paper texture behind), not the
@@ -26,7 +26,7 @@
             alt=""
             aria-hidden="true"
             data-illustration
-            class="pointer-events-none absolute inset-x-0 bottom-0 block w-full opacity-70"
+            class="pointer-events-none absolute inset-x-0 bottom-0 hidden w-full opacity-70 md:block"
         />
     @endif
 
@@ -46,7 +46,7 @@
         @endif
 
         {{-- bottle name | bottle | hero text + signature --}}
-        <div class="grid flex-1 grid-cols-1 items-center gap-4 pt-10 pb-32 md:grid-cols-3 md:pb-48">
+        <div class="grid flex-1 grid-cols-1 items-center gap-4 pt-10 pb-8 md:grid-cols-3 md:pb-48">
 
             {{-- Left: bottle name --}}
             <div class="relative z-30 order-2 text-center md:order-1 md:text-right" data-fade>
@@ -62,7 +62,18 @@
 
             {{-- Center: bottle. Pulled up with a negative margin and raised
                  above the logo so it overlaps the brand mark. --}}
-            <div class="order-1 flex justify-center md:order-2">
+            <div class="relative order-1 flex justify-center md:order-2">
+                {{-- Mobile only: illustration sits right under the bottle (not the
+                     text). Full-bleed; desktop uses the section-level one above. --}}
+                @if ($illustration)
+                    <x-picture
+                        :file="$illustration"
+                        sizes="100vw"
+                        alt=""
+                        aria-hidden="true"
+                        class="pointer-events-none absolute bottom-0 left-1/2 z-10 block w-screen max-w-none -translate-x-1/2 opacity-70 md:hidden"
+                    />
+                @endif
                 @if ($bottle)
                     <x-picture
                         :file="$bottle"

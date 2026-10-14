@@ -14,7 +14,7 @@
         @endif
 
         @if ($title->isNotEmpty())
-            <h2 class="mt-5 font-toyprint text-3xl uppercase md:text-5xl text-center" data-parallax="90">
+            <h2 class="mt-5 font-toyprint text-3xl uppercase md:text-5xl text-center" data-parallax="90" data-parallax-sm="60">
                 {{ $title }}
             </h2>
         @endif

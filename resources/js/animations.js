@@ -23,9 +23,12 @@ if (!reduceMotion) {
 
   // Parallax drift for marked elements (intro, place, …). Each element travels
   // from +amount to -amount as it passes through the viewport, tied to scroll.
-  // The `data-parallax` value is the travel in pixels (default 80).
+  // The `data-parallax` value is the travel in pixels (default 80);
+  // `data-parallax-sm` optionally overrides it below 768px.
+  const isMobile = window.matchMedia('(max-width: 767px)').matches
   gsap.utils.toArray('[data-parallax]').forEach((el) => {
-    const amount = parseFloat(el.dataset.parallax) || 80
+    const amount =
+      parseFloat((isMobile && el.dataset.parallaxSm) || el.dataset.parallax) || 80
     gsap.fromTo(
       el,
       { y: amount },
@@ -49,6 +52,20 @@ if (!reduceMotion) {
   if (bottle) {
     // Bottle fades in (opacity only, so its `y` stays free for the parallax).
     gsap.to(bottle, { opacity: 1, duration: 1, ease: 'power2.out' })
+
+    // Mobile: a gentle drift so the bottle moves a little against the scroll.
+    gsap.matchMedia().add('(max-width: 767px)', () => {
+      gsap.to(bottle, {
+        y: 40,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: bottle.closest('section'),
+          start: 'top top',
+          end: 'bottom top',
+          scrub: true,
+        },
+      })
+    })
 
     // Parallax (desktop only): the bottle advances downward until its bottom
     // meets the bottom of the illustration, but the travel ends as soon as the

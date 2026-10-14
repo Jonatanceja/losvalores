@@ -18,7 +18,7 @@
                 @endif
 
                 @if ($titleOne->isNotEmpty())
-                    <h2 class="font-toyprint text-3xl uppercase leading-tight md:text-5xl" data-parallax="90">
+                    <h2 class="font-toyprint text-3xl uppercase leading-tight md:text-5xl" data-parallax="90" data-parallax-sm="60">
                         {{ $titleOne }}
                     </h2>
                 @endif
@@ -40,7 +40,7 @@
 
         {{-- Column two — offset down --}}
         <div class="flex flex-col md:mt-40">
-            <div class="relative z-10 flex flex-col gap-6 p-8 md:p-32">
+            <div class="relative z-10 flex flex-col gap-6 p-8 pt-20 md:p-32">
                 @if ($textTwo->isNotEmpty())
                     <div class="font-abhaya text-base leading-relaxed md:text-lg" data-parallax="70">
                         {!! $textTwo->kt() !!}
@@ -48,7 +48,7 @@
                 @endif
 
                 @if ($titleTwo->isNotEmpty())
-                    <h2 class="font-toyprint text-3xl uppercase leading-tight md:text-5xl" data-parallax="120">
+                    <h2 class="font-toyprint text-3xl uppercase leading-tight md:text-5xl" data-parallax="120" data-parallax-sm="90">
                         {{ $titleTwo }}
                     </h2>
                 @endif
